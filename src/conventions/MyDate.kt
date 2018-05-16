@@ -1,8 +1,17 @@
 package conventions
 
+import java.time.Year
 import java.util.*
 
 data class MyDate(private val year: Int, private val month: Int, private val dayOfMonth: Int) : Comparable<MyDate> {
+
+    operator fun plus(timeInterval: TimeInterval) = when {
+        timeInterval == TimeInterval.YEAR -> addTimeIntervals(TimeInterval.YEAR, 1)
+        timeInterval == TimeInterval.WEEK -> addTimeIntervals(TimeInterval.WEEK, 1)
+        else -> addTimeIntervals(TimeInterval.DAY, 1)
+    }
+
+    operator fun plus(timeIntervals: RepeatedTimeInterval) = addTimeIntervals(timeIntervals.timeInterval, timeIntervals.number)
 
     override fun compareTo(other: MyDate) = when {
         year != other.year -> year - other.year
@@ -24,10 +33,14 @@ data class MyDate(private val year: Int, private val month: Int, private val day
         }
         return MyDate(c.get(Calendar.YEAR), c.get(Calendar.MONTH), c.get(Calendar.DATE))
     }
+}
 
-    enum class TimeInterval {
-        DAY,
-        WEEK,
-        YEAR
-    }
+enum class TimeInterval {
+    DAY,
+    WEEK,
+    YEAR
+}
+
+class RepeatedTimeInterval(val timeInterval: TimeInterval, val number: Int) {
+    operator fun TimeInterval.times(number: Int) = RepeatedTimeInterval(this, number)
 }
