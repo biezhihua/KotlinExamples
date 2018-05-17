@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c069bc4e-6c3d-4e5d-b7d9-2139be166267" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/collecions/Customer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collecions/Shop.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/collecions/Data.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/collecions/Data.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -17,8 +19,26 @@
       <file leaf-file-name="Data.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/collecions/Data.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="56" column="50" selection-start-line="56" selection-start-column="50" selection-end-line="56" selection-end-column="50" />
+            <state relative-caret-position="21">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Shop.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/collecions/Shop.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1344">
+              <caret line="64" selection-start-line="64" selection-end-line="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Customer.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/collecions/Customer.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="693">
+              <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -26,8 +46,8 @@
       <file leaf-file-name="_Collections.kt" pinned="false" current-in-tab="false">
         <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/generated/_Collections.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="1357" column="33" selection-start-line="1357" selection-start-column="33" selection-end-line="1357" selection-end-column="33" />
+            <state relative-caret-position="185">
+              <caret line="1462" column="37" selection-start-line="1462" selection-start-column="37" selection-end-line="1462" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -78,6 +98,8 @@
         <option value="$PROJECT_DIR$/src/conventions/DateIterator.kt" />
         <option value="$PROJECT_DIR$/src/conventions/DataRange.kt" />
         <option value="$PROJECT_DIR$/src/conventions/MyDate.kt" />
+        <option value="$PROJECT_DIR$/src/collecions/Customer.kt" />
+        <option value="$PROJECT_DIR$/src/collecions/Shop.kt" />
         <option value="$PROJECT_DIR$/src/collecions/Data.kt" />
       </list>
     </option>
@@ -339,7 +361,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.310559" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2309237" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2309237" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -357,7 +379,7 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2309237" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2309237" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -368,7 +390,7 @@
       <window_info id="UI Designer" order="3" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39876354" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.310559" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.310559" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -588,15 +610,29 @@
     </entry>
     <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/generated/_Collections.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="1357" column="33" selection-start-line="1357" selection-start-column="33" selection-end-line="1357" selection-end-column="33" />
+        <state relative-caret-position="185">
+          <caret line="1462" column="37" selection-start-line="1462" selection-start-column="37" selection-end-line="1462" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/collecions/Shop.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1344">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/collecions/Customer.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/collecions/Data.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="56" column="50" selection-start-line="56" selection-start-column="50" selection-end-line="56" selection-end-column="50" />
+        <state relative-caret-position="21">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
